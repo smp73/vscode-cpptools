@@ -2,9 +2,9 @@ name: CI (Linux)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ smp73]
   pull_request:
-    branches: [ main ]
+    branches: [ smp73 ]
 
 jobs:
   job:
